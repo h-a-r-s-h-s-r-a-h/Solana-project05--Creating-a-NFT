@@ -42,7 +42,7 @@ umi.use(keypairIdentity(umiUser));
 console.log("Set up Umi instance for user");
 
 const collectionAddress = publicKey(
-  "collection-address--url--paste--here",
+  "74SaPHgPBDF1w9iW2ngLkVt4nub1Cv4W2TtfaGVp5DGs",
 );
 
 console.log(`Creating NFT...`);

@@ -36,7 +36,7 @@ const umiKeypair = umi.eddsa.createKeypairFromSecretKey(user.secretKey);
 umi.use(keypairIdentity(umiKeypair));
 
 // Our NFT we made earlier
-const nftAddress = publicKey("nftAddress--url--paste--here");
+const nftAddress = publicKey("6JzhxGMXoTQvB3yQDpRbwx3huEoWRAEMXqs7H23gyyEs");
 
 // Update the NFT metadata
 const initialMetadata = await fetchMetadataFromSeeds(umi, {
